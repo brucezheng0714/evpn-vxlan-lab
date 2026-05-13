@@ -37,12 +37,12 @@ EVE 指导文档 - Arista vEOS
 
 Containerlab 基于 Linux Container 容器技术，可以快速部署大规模网络实验。
 
-### Ubuntu 下载
+### Ubuntu Server 24.04.4 LTS 下载
 
 <a href="https://ubuntu.com/download/alternative-downloads"
 target="_blank"
 rel="noopener noreferrer">
-Ubuntu 官方下载
+Ubuntu 官方下载地址
 </a>
 
 <br>

@@ -35,7 +35,32 @@ EVE 指导文档 - Arista vEOS
 
 ## Containerlab 的优势
 
-Containerlab 基于 Linux Container 容器技术，可以快速部署大规模网络实验。
+EVE运行的是完成的VM
+
+Containerlab 基于 Linux Container 容器技术，可以快速部署大规模网络实验。cEOS少了
+- BIOS
+- 虚拟硬件
+- 完整Linux OS
+
+所以Containerlab启动速度和资源占用低很多
+
+| 对比项 | vEOS-lab（VM） | cEOS（Container） |
+|---|---|---|
+| 架构类型 | 完整虚拟机（QEMU/KVM） | Docker 容器 |
+| 底层依赖 | 虚拟化 | Linux Container |
+| 是否需要完整 Guest OS | 是 | 否 |
+| 启动方式 | BIOS → Kernel → EOS | 直接启动容器进程 |
+| 空闲内存占用 | 2~4GB | 700MB~1.5GB |
+| EVPN/VXLAN场景内存 | 3~5GB | 1.5~2.5GB |
+| 磁盘占用 | 大（多个GB） | 小很多 |
+| 10节点实验资源需求 | 很高 | 可接受 |
+| 20节点实验 | 很吃力 | 仍可运行 |
+| YAML自动化 | 不支持 | 原生支持 |
+| Wireshark抓包 | 一般 | 非常方便 |
+| 批量实验 | 麻烦 | 非常适合 |
+| EVPN大规模实验 | 资源容易爆 | 更适合 |
+
+
 
 ### Ubuntu Server 24.04.4 LTS 下载
 

@@ -17,5 +17,12 @@ sudo apt update && sudo apt upgrade -y
 ```bash
 curl -sL https://containerlab.dev/setup | sudo -E bash -s "all"
 ```
+### 下载Arista公司的cEOS镜像
+
+
+### 导入cEOS镜像
+```bash
+ sudo docker import cEOS64-lab-4.35.3.1F.tar ceos:4.35.3.1F
+```
 
 

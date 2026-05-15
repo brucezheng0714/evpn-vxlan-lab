@@ -14,7 +14,11 @@
 ## 安装WSL
 1. 开启Windows功能
 
+Win+R -> optionalfeatures
+
 ![开启wsl](images/wsl需开启Windows功能.png)
+
+2. 安装WSL Ubuntu 24.04
 
 ### 更新Ubuntu软件：
 ```bash

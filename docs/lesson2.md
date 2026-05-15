@@ -12,8 +12,8 @@
 即可获得完整的Linux命令行环境
 
 ## 安装WSL
-
-
+1. 开启Windows功能
+[开启wsl](/images/wsl需开启Windows功能.png)
 
 ### 更新Ubuntu软件：
 ```bash

@@ -2,7 +2,8 @@
 
 ## 什么是WSL
 
-> Windows Subsystem for Linux - 适用于Linux的Windows子系统
+**Windows Subsystem for Linux - 适用于Linux的Windows子系统**
+
 它
 
 ## 安装Containerlab

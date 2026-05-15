@@ -1,8 +1,9 @@
-# 安装Containerlab
+# 安装WSL Ubuntu-22.04
 
-## 安装Ubuntu server 22.04.4
+## 什么是WSL
 
-CPU: 1 Provessor 6 Cores，勾选虚拟化; 内存：20G；硬盘：100G；网络：桥接；
+> Windows Subsystem for Linux - 适用于Linux的Windows子系统
+它
 
 ## 安装Containerlab
 

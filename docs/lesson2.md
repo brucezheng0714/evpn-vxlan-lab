@@ -4,7 +4,12 @@
 
 **Windows Subsystem for Linux - 适用于Linux的Windows子系统**
 
-它
+它允许用户直接在Windows里运行Linux环境，而无需：
+- VMware
+- VirtualBox
+- 双系统
+
+即可获得完整的Linux命令行环境
 
 ## 安装Containerlab
 

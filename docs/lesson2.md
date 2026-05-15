@@ -11,7 +11,9 @@
 
 即可获得完整的Linux命令行环境
 
-## 安装Containerlab
+## 安装WSL
+
+
 
 ### 更新Ubuntu软件：
 ```bash

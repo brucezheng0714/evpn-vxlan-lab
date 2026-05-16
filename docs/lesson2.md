@@ -18,7 +18,7 @@ Win+R -> optionalfeatures
 
 ![开启wsl](images/wsl需开启Windows功能.png) 
 
-### 2. 安装WSL Ubuntu 22.04**
+### 2. 安装WSL Ubuntu 22.04
 
 管理员打开powershell,输入：
 ```bash
@@ -33,9 +33,26 @@ wsl --install Ubuntu-24.04
 ```bash
 wsl
 ```
-！[Powershell进入Ubuntu](images/powershell进入Ubuntu.png)
+![Powershell进入Ubuntu](images/powershell进入Ubuntu.png)
 
 ### 2. APP 进入
+
+### 3. 更新Ubuntu软件：
+```bash
+sudo apt update && sudo apt upgrade -y
+```
+
+[Containerlab使用说明传送门](https://containerlab.dev/install/)
+
+### 4. 安装Containerlab：
+```bash
+curl -sL https://containerlab.dev/setup | sudo -E bash -s "all"
+```
+### 下载Arista公司的cEOS镜像
+```bash
+https://www.arista.com/zh/support/software-download
+```
+
 
 ## VScode连接WSL
 ### 准备工作
@@ -68,20 +85,12 @@ Ctrl + Shift + P
 ```bash
 WSL: Connect to WSL
 ```
-Open Host /home/bruce/clab
-
-### 更新Ubuntu软件：
+Open Host 
 ```bash
-sudo apt update && sudo apt upgrade -y
+/home/bruce/clab
 ```
 
-[Containerlab使用说明传送门](https://containerlab.dev/install/)
 
-### 安装Containerlab：
-```bash
-curl -sL https://containerlab.dev/setup | sudo -E bash -s "all"
-```
-### 下载Arista公司的cEOS镜像
 
 
 ### 导入cEOS镜像

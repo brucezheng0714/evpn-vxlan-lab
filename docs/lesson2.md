@@ -27,6 +27,49 @@ wsl --install Ubuntu-24.04
 
 ![install wsl Ubuntu](images/wsl%20install%20Ubuntu.png) 
 
+## 进入Ubuntu
+
+### 1. Powershell 进入
+```bash
+wsl
+```
+！[Powershell进入Ubuntu](images/powershell进入Ubuntu.png)
+
+### 2. APP 进入
+
+## VScode连接WSL
+### 准备工作
+#### 安装插件
+##### 安装WSL插件
+
+WSL插件用来连接本机WSL Ubuntu
+
+![安装WSL插件](images/安装插件WSL.png)
+
+##### 安装containerlab插件
+
+Containerlab插件实验增强
+
+![安装Containerlab插件](images/安装插件containerlab.png)
+
+#### 创建clab文件夹
+```bash
+mkdir clab
+```
+
+### VScode连接WSL Ubuntu
+
+按：
+```bash
+Ctrl + Shift + P
+```
+
+输入：
+```bash
+WSL: Connect to WSL
+```
+Open Host /home/bruce/clab
+
 ### 更新Ubuntu软件：
 ```bash
 sudo apt update && sudo apt upgrade -y

@@ -1,16 +1,5 @@
 # 安装WSL Ubuntu-22.04
 
-## 什么是WSL
-
-**Windows Subsystem for Linux - 适用于Linux的Windows子系统**
-
-它允许用户直接在Windows里运行Linux环境，而无需：
-- VMware
-- VirtualBox
-- 双系统
-
-即可获得完整的Linux命令行环境
-
 ## 安装WSL
 ### 1. 开启Windows功能
 
@@ -64,14 +53,14 @@ cEOS64-lab-4.35.3.1F.tar
 
 ## VScode连接WSL
 ### 准备工作
-#### 安装插件
-##### 安装WSL插件
+
+#### 1. 安装WSL插件
 
 WSL插件用来连接本机WSL Ubuntu
 
 ![安装WSL插件](images/安装插件WSL.png)
 
-##### 安装containerlab插件
+#### 2. 安装containerlab插件
 
 Containerlab插件实验增强
 
@@ -80,7 +69,7 @@ Containerlab插件实验增强
 
 
 ### VScode连接WSL Ubuntu
-
+#### 1. VScode连接到Ubuntu，打开对应文件夹
 按：
 ```bash
 Ctrl + Shift + P
@@ -92,8 +81,10 @@ WSL: Connect to WSL
 ```
 Open Host 
 ```bash
-/home/bruce/clab
+/home/bruce
 ```
+#### 2. 安装Containerlab插件到Ubuntu
+![vscode安装containerlab插件到Ubuntu](images/安装containerlab到Ubuntu.png)
 
 ### 导入cEOS镜像
 ```bash

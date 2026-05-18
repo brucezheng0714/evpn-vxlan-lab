@@ -23,13 +23,20 @@ rel="noopener noreferrer">
 EVE 指导文档 - Nexus9K
 </a>
 
-<br>
-
 <a href="https://www.eve-ng.net/index.php/documentation/howtos/howto-add-arista-veos/"
 target="_blank"
 rel="noopener noreferrer">
 EVE 指导文档 - Arista vEOS
 </a>
+
+### FRRouting与cEOS的选择
+
+FRRouting是运行在Linux上的路由软件，即使是VM也可以搭建大规模的EVPN实验，资源占用远低于vEOS,Nexus9Kv。
+不过：
+```bash
+FRR更偏协议学习，其CLI与真实交换机相差太大。
+cEOS更接近真实数据中心交换机环境。
+```
 
 ---
 
